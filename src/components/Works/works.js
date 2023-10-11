@@ -1,11 +1,11 @@
 import React from 'react'
 import './works.css'
-import Portofolio1 from '../../assets/portfolio-1.png'
-import Portofolio2 from '../../assets/portfolio-2.png'
-import Portofolio3 from '../../assets/portfolio-3.png'
-import Portofolio4 from '../../assets/portfolio-4.png'
-import Portofolio5 from '../../assets/portfolio-5.png'
-import Portofolio6 from '../../assets/portfolio-6.png'
+import Portofolio1 from '../../assets/g1.jpg'
+import Portofolio2 from '../../assets/g2.jpg'
+import Portofolio3 from '../../assets/g3.jpg'
+import Portofolio4 from '../../assets/g4.jpg'
+import Portofolio5 from '../../assets/g5.jpg'
+import Portofolio6 from '../../assets/g6.jpg'
 
 const Works = () => {
   return (

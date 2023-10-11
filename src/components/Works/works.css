@@ -23,18 +23,24 @@
 }
 
 .worksImgs {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    gap: 1rem;
     max-width: 65rem;
+    margin: 0 auto; 
 }
 
 .worksImg {
-    object-fit: cover;
-    height: 20rem;
+    object-fit: contain;
+    width: 100%;
+    aspect-ratio: 1;
     margin: 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+
+.worksImg:hover {
+    transform: scale(1.05);
 }
 
 .worksBtn {
